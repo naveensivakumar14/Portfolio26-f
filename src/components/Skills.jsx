@@ -84,7 +84,7 @@ const Skills = () => {
         delay={0}
       >
         <div className="max-w-7xl md:mx-auto px-6">
-          {/* 4x4 Skill Grid */}
+          {/* 8*2 grid */}
           <div className="grid grid-cols-2 sm:grid-cols-8 gap-8">
             {skills.map((skill, index) => (
               <div
@@ -93,7 +93,7 @@ const Skills = () => {
               group
               flex flex-col items-center justify-center
               p-4 rounded-2xl
-              bg-slate-100 dark:bg-[#1e293b]
+              bg-slate-100 md:bg-slate-200 dark:bg-[#1e293b]
               border border-gray-200 dark:border-gray-700
               hover:shadow-xl
               hover:-translate-y-2
