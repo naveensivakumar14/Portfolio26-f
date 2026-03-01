@@ -93,7 +93,7 @@ const Skills = () => {
               group
               flex flex-col items-center justify-center
               p-4 rounded-2xl
-              bg-slate-100 md:bg-slate-200 dark:bg-[#1e293b]
+              md:bg-slate-100 bg-[#1e293b]
               border border-gray-200 dark:border-gray-700
               hover:shadow-xl
               hover:-translate-y-2
@@ -106,7 +106,7 @@ const Skills = () => {
                   {skill.icon}
                 </div>
 
-                <h3 className="font-semibold text-black text-sm md:text-md text-center">
+                <h3 className="font-semibold text-white md:text-black text-sm md:text-md text-center">
                   {skill.name}
                 </h3>
               </div>
