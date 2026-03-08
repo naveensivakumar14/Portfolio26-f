@@ -1,8 +1,8 @@
 # Portfolio 
 
-Javascript
-React JS 
-React Bits Library
-Node JS
-Express JS
+-Javascript
+-React JS 
+-React Bits Library
+-Node JS
+-Express JS
 
